@@ -1,0 +1,10 @@
+# Requirements for RL-Framework and 
+open3d == 0.12
+trimesh == 3.9.35
+tensorflow == 2.6
+numba == 0.53
+keras == 2.6
+pytorch==1.12
+wandb==0.13.2
+gym==0.21
+stable-baselines3==1.6

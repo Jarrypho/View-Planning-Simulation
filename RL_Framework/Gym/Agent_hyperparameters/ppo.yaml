@@ -1,0 +1,11 @@
+---
+Cov-v0:
+  learning_rate: lin_2.5e-4 
+  n_steps: 512
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: lin_0.2
+  ent_coef: 0.001
+

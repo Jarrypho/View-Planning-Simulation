@@ -1,0 +1,51 @@
+---
+RL_params:
+  agent_type: sac
+  num_steps : 10000
+   
+env:
+  dataset: StarterMotors
+  file_type: stl
+  encoding: 2048x4
+  action_type: 2T0R
+  downsampling_factor: 0.01
+  dim: 2048
+  
+Cov:
+  desired_coverage: 90
+  inverted_state: False
+  initial_scan:
+   - 1.42
+   - 0.71
+  rewardtype: dcov_each
+  max_iterations: 10
+  CamRadius: 47
+
+NBV:
+  inverted_state: False
+  initial_scan: null
+  rewardtype: exp_dcov
+  max_iterations: 1
+  CamRadius: 47
+  
+Ins:
+  num_points: 150
+  num_areas: 2
+  initial_scan: null
+  rewardtype: dcov
+  desired_coverage: 95
+  max_iterations: 5
+  CamRadius: 27
+  scanner:
+    cam_workspace: [15.0, 30.0]
+  scaling: False
+
+wandb:
+  project: Dominik
+  eval: Dominik_eval
+  entity: agi-probot_ma
+  run_name: 2T0R_ac_Inspection
+
+
+
+  
