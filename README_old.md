@@ -214,6 +214,7 @@ also contains the supervised datasets
 
 # How to cite
 Please consider citing when using our simulation
+
 @misc{ViewPlanningSimulation,
 
   author={Kaiser, Jan-Philipp and Koch, Dominik and Schmid, Jonas and Gaebele, Jonas},
