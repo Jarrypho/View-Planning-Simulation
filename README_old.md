@@ -212,6 +212,13 @@ samples from ABC-dataset and StaterMotors are possible
 
 also contains the supervised datasets
 
-
+# How to cite
+Please consider citing when using our simulation
+@misc{ViewPlanningSimulation,
+  author={Kaiser, Jan-Philipp and Koch, Dominik and Schmid, Jonas and Gaebele, Jonas},
+  title={View-Planning-Simulation},
+  year={2022},
+  url={https://github.com/Jarrypho/View-Planning-Simulation},
+}
 
 
