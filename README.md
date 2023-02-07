@@ -80,7 +80,20 @@ If CUDA is available, go to [https://pytorch.org/get-started/locally/](https://p
 
 If cuda is not available, install pytorch 1.12 for CPU.
 
-# Acknowledgements
+# How to cite
+Please consider citing when using our simulation
+
+@misc{ViewPlanningSimulation,
+
+author={Kaiser, Jan-Philipp and Koch, Dominik and Schmid, Jonas and Gaebele, Jonas},
+
+title={View-Planning-Simulation},
+
+year={2022},
+
+url={https://github.com/Jarrypho/View-Planning-Simulation},
+
+}
 
 # References
 
